@@ -1,0 +1,5 @@
+---
+- name: openntp
+  runit:
+    name: nptd
+    state: restarted
