@@ -1,5 +1,5 @@
 ---
 - name: openntp
   runit:
-    name: nptd
+    name: ntpd
     state: restarted
